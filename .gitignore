@@ -1,0 +1,11 @@
+# 가상환경
+.venv/
+
+# PyCharm 설정 폴더
+.idea/
+
+# __pycache__ 자동 생성 파일
+__pycache__/
+
+# Mac 시스템 파일
+.DS_Store
