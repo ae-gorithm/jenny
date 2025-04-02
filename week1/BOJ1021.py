@@ -10,8 +10,6 @@ from collections import deque
 N, M = map(int, input().split())
 targets = list(map(int, input().split()))
 
-remain = M
-
 deque = deque(range(1, N+1))
 count = 0
 for target in targets:
