@@ -12,6 +12,8 @@ def find(i, life, joy):
     global answer
     if life > 0:
         answer = max(answer, joy)
+    else:
+        return
 
     if i + 1 < N:
         find(i + 1, life, joy) # i+1번째 사람 건너뜀
