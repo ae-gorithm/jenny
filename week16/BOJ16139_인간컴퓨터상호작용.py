@@ -17,7 +17,8 @@ alphabet[ord(S[0]) - 97][1] = 1
 for i in range(1, len(S)): # 최악의 수: 200,000*26
     idx = ord(S[i]) - 97
     for j in range(26):
-        alphabet[j][i + 1] = alphabet[j][i] # 시간초과 -> sys.stdin.readline로 해결
+        alphabet[j][i + 1] = alphabet[j][i] # 시간초과
+        # -> pypy3은 sys.stdin.readline로 해결 가능. python3는 불가능
     alphabet[idx][i + 1] += 1
 
 q = int(input())
