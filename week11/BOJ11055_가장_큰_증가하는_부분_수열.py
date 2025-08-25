@@ -7,6 +7,8 @@
 # 부분 수열 -> 꼭 연속적이지 않아도 된다.
 # 해결 방법: DP
 
+# 시간 복잡도: O(N^2)
+
 N = int(input())
 arr = list(map(int, input().split()))
 
