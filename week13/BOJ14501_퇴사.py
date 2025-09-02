@@ -22,3 +22,5 @@ arr = [list(map(int, input().split())) for _ in range(N)]
 answer = 0
 find(0, 0)
 print(answer)
+
+# 백트래킹이었다
